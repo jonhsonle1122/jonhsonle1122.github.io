@@ -1,0 +1,191 @@
+{
+  "hero": {
+    "name": "NGUYEN CONG THANH",
+    "title": "Mobile Developer",
+    "subtitle": "Flutter / React Native",
+    "location": "Can Tho, Vietnam",
+    "summary": "Detail-oriented Mobile Developer with 2+ years of experience specializing in cross-platform development using Flutter and React Native. Proven track record in implementing complex business logic, integrating real-time features (WebSockets), and optimizing app performance.",
+    "availability": "2+ years · Cross-platform · Clean Architecture",
+    "avatar": {
+      "initials": "NCT",
+      "gradientFrom": "#22d3ee",
+      "gradientTo": "#a855f7"
+    }
+  },
+  "about": {
+    "headline": "Mobile Developer (Flutter / React Native)",
+    "content": "Detail-oriented Mobile Developer with 2+ years of experience specializing in cross-platform development using Flutter and React Native. Proven track record in implementing complex business logic, integrating real-time features (WebSockets), and optimizing app performance. Strong advocate for Clean Architecture and maintainable code, with hands-on experience in the full mobile app lifecycle from development to store deployment.",
+    "highlights": [
+      "Cross-platform mobile development with Flutter and React Native.",
+      "Real-time features integration: WebSocket, messaging, and streaming stability improvements.",
+      "Architecture-focused: Clean Architecture, MVVM, Repository Pattern.",
+      "End-to-end delivery: development, debugging production issues, and store deployments."
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Mobile",
+        "skills": [
+          { "name": "Flutter", "level": 88 },
+          { "name": "React Native", "level": 80 },
+          { "name": "Basic Android (Java)", "level": 55 }
+        ]
+      },
+      {
+        "name": "Languages",
+        "skills": [
+          { "name": "Dart", "level": 86 },
+          { "name": "JavaScript", "level": 78 },
+          { "name": "TypeScript", "level": 72 },
+          { "name": "Java", "level": 62 }
+        ]
+      },
+      {
+        "name": "Architecture",
+        "skills": [
+          { "name": "Clean Architecture", "level": 84 },
+          { "name": "MVVM", "level": 78 },
+          { "name": "Repository Pattern", "level": 80 }
+        ]
+      },
+      {
+        "name": "State Management",
+        "skills": [
+          { "name": "BLoC", "level": 84 },
+          { "name": "Provider", "level": 76 },
+          { "name": "Redux/Hooks", "level": 72 }
+        ]
+      },
+      {
+        "name": "Backend & Tools",
+        "skills": [
+          { "name": "REST API", "level": 80 },
+          { "name": "WebSocket", "level": 76 },
+          { "name": "Firebase", "level": 68 },
+          { "name": "Git", "level": 78 },
+          { "name": "Postman", "level": 74 },
+          { "name": "AWS Lambda", "level": 60 }
+        ]
+      },
+      {
+        "name": "Databases",
+        "skills": [
+          { "name": "PostgreSQL", "level": 62 },
+          { "name": "MySQL", "level": 60 },
+          { "name": "SQLite", "level": 66 }
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "QnA Social App",
+      "role": "Mobile Developer (Flutter)",
+      "location": "Can Tho, Vietnam",
+      "start": "Dec 2023",
+      "end": "Present",
+      "summary": "Developed core UI components and business features for a high-traffic social Q&A platform.",
+      "highlights": [
+        "Implemented infinite scroll and pagination logic to handle large datasets efficiently.",
+        "Integrated WebSockets for real-time messaging and REST APIs for data persistence.",
+        "Optimized app performance by reducing unnecessary widget rebuilds and refining BLoC state transitions.",
+        "Tech Stack: Flutter, BLoC, REST API, WebSocket."
+      ]
+    },
+    {
+      "company": "RealJob Recruitment App",
+      "role": "Mobile Developer (Flutter)",
+      "location": "Can Tho, Vietnam",
+      "start": "Jun 2023",
+      "end": "Sep 2023",
+      "summary": "Architected job listing and search filter features with advanced form validation.",
+      "highlights": [
+        "Streamlined backend integration with robust error handling and pagination.",
+        "Managed the deployment process for both Google Play Store and Apple App Store.",
+        "Resolved critical production bugs, improving user retention and app stability.",
+        "Tech Stack: Flutter, Provider, REST API."
+      ]
+    },
+    {
+      "company": "IoT Management Apps",
+      "role": "Software Developer (React Native)",
+      "location": "Can Tho, Vietnam",
+      "start": "Jun 2022",
+      "end": "May 2023",
+      "summary": "Maintained and scaled existing React Native applications for IoT device management.",
+      "highlights": [
+        "Improved video/data streaming stability and significantly reduced latency for real-time monitoring.",
+        "Refactored legacy codebases to improve readability and developer onboarding speed.",
+        "Tech Stack: React Native, JavaScript, Redux."
+      ]
+    },
+    {
+      "company": "Cloud Migration Project",
+      "role": "Software Developer (AWS)",
+      "location": "Can Tho, Vietnam",
+      "start": "Apr 2022",
+      "end": "May 2022",
+      "summary": "Automated data migration tasks using AWS Lambda and Java scripts.",
+      "highlights": [
+        "Collaborated with the backend team to monitor system health during cloud transition.",
+        "Tech Stack: AWS Lambda, Java."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "QnA Social App",
+      "tagline": "High-traffic social Q&A platform with real-time messaging.",
+      "description": "Built core UI and business features, implemented infinite scroll/pagination, integrated WebSockets for real-time messaging and REST APIs for data persistence, and optimized performance by reducing rebuilds and refining BLoC transitions.",
+      "tech": ["Flutter", "BLoC", "REST API", "WebSocket"],
+      "role": "Mobile Developer",
+      "links": {}
+    },
+    {
+      "name": "RealJob Recruitment App",
+      "tagline": "Recruitment app with advanced search & filters and store deployment.",
+      "description": "Architected job listing and search filter features with advanced form validation, improved backend integration with robust error handling/pagination, handled store deployments, and resolved production bugs to improve stability.",
+      "tech": ["Flutter", "Provider", "REST API"],
+      "role": "Mobile Developer",
+      "links": {}
+    },
+    {
+      "name": "IoT Management Apps",
+      "tagline": "React Native apps for IoT device monitoring with improved streaming.",
+      "description": "Maintained and scaled React Native apps for IoT device management, improved video/data streaming stability, reduced latency for real-time monitoring, and refactored legacy code for better readability and onboarding speed.",
+      "tech": ["React Native", "JavaScript", "Redux"],
+      "role": "Software Developer",
+      "links": {}
+    },
+    {
+      "name": "Cloud Migration Project",
+      "tagline": "Automation scripts for cloud transition.",
+      "description": "Automated data migration tasks using AWS Lambda and Java scripts and collaborated with backend team to monitor system health during cloud transition.",
+      "tech": ["AWS Lambda", "Java"],
+      "role": "Software Developer",
+      "links": {}
+    }
+  ],
+  "education": [
+    {
+      "school": "Can Tho University of Engineering and Technology",
+      "degree": "Bachelor",
+      "field": "Software Engineering",
+      "location": "Can Tho, Vietnam",
+      "start": "",
+      "end": "",
+      "highlights": [
+        "Bachelor of Software Engineering."
+      ]
+    }
+  ],
+  "contact": {
+    "email": "ncthanh498439@gmail.com",
+    "phone": "0918 498 439",
+    "location": "Can Tho, Vietnam",
+    "availability": "Open to opportunities",
+    "social": []
+  }
+}
+

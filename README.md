@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Portfolio · Nguyễn Văn A
 
-## Getting Started
+Portfolio cá nhân được xây dựng với **Next.js (App Router) + TypeScript + TailwindCSS + Framer Motion**, tối ưu cho static export (GitHub Pages) và trải nghiệm mượt mà.
 
-First, run the development server:
+### Công nghệ chính
+
+- Next.js App Router
+- TypeScript
+- TailwindCSS (v4)
+- Framer Motion
+
+### Cấu trúc chính
+
+- `app/layout.tsx` · Layout gốc, SEO metadata, thanh progress khi cuộn, loading animation.
+- `app/page.tsx` · Trang portfolio chính, render các section từ dữ liệu JSON.
+- `components/*` · Các section như `Hero`, `About`, `Skills`, `Experience`, `Projects`, `Education`, `Contact`, `Navbar`, `Footer`, `ThemeToggle`, `ScrollProgress`, `ProjectModal`, `LoadingScreen`, `SectionWrapper`.
+- `data/cv.json` · Nguồn dữ liệu duy nhất cho toàn bộ nội dung CV/portfolio.
+- `styles/globals.css` · Một số class global cho gradient, glassmorphism, animation.
+
+### Chạy ở môi trường local
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mở `http://localhost:3000` để xem giao diện.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build & export static (GitHub Pages)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run export
+```
 
-## Learn More
+Kết quả static sẽ được xuất ra thư mục `out/`. Có thể deploy thư mục này lên GitHub Pages hoặc bất kỳ static hosting nào.
 
-To learn more about Next.js, take a look at the following resources:
+> Lưu ý: Cấu hình `next.config.js` đã được thiết lập `output: "export"` và `images.unoptimized: true` để tương thích với static export.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tuỳ chỉnh nội dung
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tất cả nội dung (thông tin cá nhân, kỹ năng, kinh nghiệm, dự án, học vấn, liên hệ) đều được đọc từ file:
 
-## Deploy on Vercel
+- `data/cv.json`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Bạn chỉ cần chỉnh sửa file JSON này để cập nhật toàn bộ nội dung portfolio mà không phải sửa code.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

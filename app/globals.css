@@ -1,8 +1,18 @@
 @import "tailwindcss";
-
+/* 🔥 thêm dòng này để bật class dark */
+@custom-variant dark (&:where(.dark, .dark *));
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-light: #ffffff;
+  --foreground-light: #020617;
+  --background-dark: #020617;
+  --foreground-dark: #e5e7eb;
+  --background: var(--background-light);
+  --foreground: var(--foreground-light);
+}
+
+html.dark {
+  --background: var(--background-dark);
+  --foreground: var(--foreground-dark);
 }
 
 @theme inline {
@@ -13,14 +23,23 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not(.force-light) {
+    --background: var(--background-dark);
+    --foreground: var(--foreground-dark);
   }
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    var(--font-geist-sans),
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Text",
+    "Segoe UI",
+    sans-serif;
 }
+
+@import "../styles/globals.css";
